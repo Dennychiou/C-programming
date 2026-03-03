@@ -1,0 +1,1 @@
+需要下載sudo apt install dos2unix修正編碼 因為在txt檔案中有中文

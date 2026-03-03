@@ -1,0 +1,9 @@
+1 王大明|wangdm@gmail.com|0911222333|2020 1 1 0
+2 李小華|lihw@gmail.com|0922333444|2020 1 10 0
+3 陳志強|chenzc@gmail.com|0933444555|2020 2 5 2
+4 林美玲|linml@gmail.com|0944555666|2020 2 20 0
+5 張國華|zhangg@gmail.com|0955666777|2020 3 1 1
+6 黃雅婷|huangyt@gmail.com|0966777888|2020 3 10 0
+7 劉俊傑|liucc@gmail.com|0977888999|2020 3 15 1
+8 吳志豪|wuzh@gmail.com|0988999000|2020 3 18 0
+9 周志豪|zhouzh@gmail.com|0912345678|2020 3 22 1
