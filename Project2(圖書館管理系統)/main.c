@@ -39,9 +39,6 @@ int main() {
             break;
         }
 
-        // ========================
-        // 新增圖書
-        // ========================
         if (choice == 1) {
 
             Book b;
@@ -76,15 +73,13 @@ int main() {
 
             if (add_book(books, &book_count, b)) {
                 printf("圖書新增成功！\n");
-                save_books(books, book_count);   // 🔥 存檔
+                save_books(books, book_count); 
             } else {
                 printf("新增失敗（ISBN 重複）\n");
             }
         }
 
-        // ========================
-        // 新增會員
-        // ========================
+
         else if (choice == 2) {
 
             Member m;
@@ -113,15 +108,13 @@ int main() {
 
             if (add_member(members, &member_count, m)) {
                 printf("會員新增成功！\n");
-                save_members(members, member_count);   // 🔥 存檔
+                save_members(members, member_count);  
             } else {
                 printf("新增失敗（ID 重複）\n");
             }
         }
 
-        // ========================
-        // 借書
-        // ========================
+
         else if (choice == 3) {
 
             int member_id;
@@ -166,9 +159,7 @@ int main() {
             }
         }
 
-        // ========================
-        // 還書
-        // ========================
+
         else if (choice == 4) {
 
             int member_id;
@@ -199,9 +190,7 @@ int main() {
             }
         }
 
-        // ========================
-        // 逾期檢查
-        // ========================
+
         else if (choice == 5) {
 
             Date today;
