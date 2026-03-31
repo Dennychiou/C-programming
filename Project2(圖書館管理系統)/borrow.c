@@ -84,7 +84,7 @@ int return_book(Book books[], int book_count,
 
             records[i].is_returned = 1;
 
-            // 🔥 改成自動今天日期（暫時簡單版）
+            // 改成自動今天日期
             records[i].return_date = records[i].due_date;
 
             // 更新書籍庫存
